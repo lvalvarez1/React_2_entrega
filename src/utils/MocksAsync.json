@@ -1,0 +1,60 @@
+{
+  "categorias": [
+  { "id": 1, "nombre": "Celulares" },
+  { "id": 2, "nombre": "Computadoras" },
+  { "id": 3, "nombre": "Impresoras" }
+],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Samsung",
+      "descripcion": "S24Ultra",
+      "precio": 1500,
+      "stock": 100,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Schokolade-braun.jpg/800px-Schokolade-braun.jpg",
+      "isOnDiscount": false,
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "nombre": "motorola ",
+      "descripcion": "G1",
+      "precio": 2500,
+      "stock": 75,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Schokolade-braun.jpg/800px-Schokolade-braun.jpg",
+      "isOnDiscount": true,
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nombre": "PC-AMD",
+      "descripcion": "Ryzen 5",
+      "precio": 40000,
+      "stock": 120,
+      "imagen": "https://i.blogs.es/b6b875/9234009120_ba9961e7c5_z/450_1000.jpg",
+      "isOnDiscount": true,
+      "categoria": 2
+    },
+    {
+      "id": 4,
+      "nombre": "PC-INTEL",
+      "descripcion": "Core I9",
+      "precio": 50000,
+      "stock": 200,
+      "imagen": "https://arcorencasa.com/wp-content/uploads/2023/09/20230904-1782.jpg",
+      "isOnDiscount":false,
+      "categoria":2
+    },
+    {
+      "id": 5,
+      "nombre": "HP blanca",
+      "descripcion": "Modelo 1234",
+      "precio": 10000,
+      "stock": 50,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNkUStwBQn7dRBtuErN62oagybIkEsfyvJdiyh_B9EbFXcRoaH7T6WmDnLH1uLoKVhfo&usqp=CAU",
+      "isOnDiscount": true,
+      "categoria": 3
+
+    }
+  ]
+}
